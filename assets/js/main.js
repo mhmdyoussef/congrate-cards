@@ -36,8 +36,9 @@ function addTextToImage() {
         context.fillStyle = color;
         context.lineStyle = "#ffff00";
         context.font = fSize + "px " + fontName;
+        context.textAlign = 'center';
         // position on img
-        context.fillText(textToAdd, 700, 980);
+        context.fillText(textToAdd, 550, 980, 400);
     };
 
     // Show result
